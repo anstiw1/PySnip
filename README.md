@@ -12,7 +12,7 @@ PySnip's purpose is to read the text content on an image, and allow the user to 
 
 Running ```python pysnip.py``` will open a drag-box overlay on the screen where your mouse is. At this point, using the tool is as simple as dragging and highlighting the text you want to copy. 
 
-PySnip supports multiple languages! For example, running ```python pysnip.py rus``` will allow you to copy Russian Cyrillic text. PySnip also supports multiple languages--typing ```python pysnip eng+rus``` will let you copy text from documents that are written in both English and Russian Cyrillic. **The default language is always the user's system language.***
+PySnip supports multiple languages! For example, running ```python pysnip.py rus``` will allow you to copy Russian Cyrillic text. PySnip also supports multiple languages--typing ```python pysnip eng+rus``` will let you copy text from documents that are written in both English and Russian Cyrillic. **The default language is always the user's system language.**
 
 Using multiple languages requires the appropriate data files for Tesseract to be installed. The currently supported languages can be found [here](https://github.com/tesseract-ocr/tesseract/blob/master/doc/tesseract.1.asc#languages-and-scripts).
 
